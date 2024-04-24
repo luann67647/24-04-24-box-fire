@@ -1,0 +1,33 @@
+
+#Box{
+  padding-bottom: 500px;
+} 
+
+.contaneir{
+    background-color: aquamarine;
+    border: 2px solid red;
+    padding: 15px;
+    max-width: 300px;
+    height: 300px;
+    display: flex;
+    /* alinhamento horizontal*/
+    justify-content:space-between;
+    /* alinhamento vertical */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: blue;
+    border: 2px solid palevioletred;
+    height: 50px;
+    flex-basis: 30px;
+
+
+}
+.box{
+    background-color: brown;
+    border: 2px;
+    height: 50px;
+    flex-basis: 100px ;
+    
+}
